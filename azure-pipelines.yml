@@ -62,7 +62,7 @@ stages:
     displayName: Deploy
     environment: $(environmentName)
     pool:
-      vmImage: Default
+      vmImage: mulligaj-self
     strategy:
       runOnce:
         deploy:
